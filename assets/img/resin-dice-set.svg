@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1730"/><stop offset="1" stop-color="#0e0c1c"/></linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fe3ff"/><stop offset=".45" stop-color="#3d7bd6"/><stop offset="1" stop-color="#241a6e"/></linearGradient>
+    <linearGradient id="gem2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9b6ff"/><stop offset=".45" stop-color="#7a4fd6"/><stop offset="1" stop-color="#381a6e"/></linearGradient>
+    <radialGradient id="glow2" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#9fd8ff" stop-opacity=".18"/><stop offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg2)"/>
+  <rect width="900" height="900" fill="url(#glow2)"/>
+  <g transform="translate(450,460) scale(1.35)">
+    <polygon points="0,-72 63,-34 63,34 0,72 -63,34 -63,-34" fill="url(#gem)" stroke="#1b2f6e" stroke-width="3"/>
+    <polygon points="0,-38 34,-18 34,22 0,42 -34,22 -34,-18" fill="#2a3f9e" stroke="#a9d8ff" stroke-width="2"/>
+    <text x="0" y="9" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#fff" text-anchor="middle">20</text>
+    <path d="M0,-72 L0,-38 M63,-34 L34,-18 M63,34 L34,22 M0,72 L0,42 M-63,34 L-34,22 M-63,-34 L-34,-18" stroke="#1b2f6e" stroke-width="2.5" fill="none"/>
+    <polygon points="-18,-58 -6,-52 -14,-44" fill="#eaffff" opacity=".85"/>
+  </g>
+  <g transform="translate(300,560) scale(.9)">
+    <polygon points="0,-64 61,-20 38,52 -38,52 -61,-20" fill="url(#gem2)" stroke="#3a1d6e" stroke-width="3"/>
+    <text x="0" y="8" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle">12</text>
+  </g>
+  <g transform="translate(590,345) scale(.88)">
+    <polygon points="0,-62 38,10 0,62 -38,10" fill="url(#gem)" stroke="#1b2f6e" stroke-width="3"/>
+    <text x="0" y="4" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">10</text>
+  </g>
+  <g transform="translate(590,455) scale(.88)">
+    <polygon points="0,-62 38,10 0,62 -38,10" fill="url(#gem2)" stroke="#3a1d6e" stroke-width="3"/>
+    <text x="0" y="6" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">%</text>
+  </g>
+  <g transform="translate(318,360) scale(.85)">
+    <polygon points="0,-58 40,0 0,58 -40,0" fill="url(#gem)" stroke="#1b2f6e" stroke-width="3"/>
+    <line x1="0" y1="-58" x2="0" y2="58" stroke="#1b2f6e" stroke-width="2.5"/><line x1="-40" y1="0" x2="40" y2="0" stroke="#1b2f6e" stroke-width="2.5"/>
+    <text x="0" y="-6" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">8</text>
+  </g>
+  <g transform="translate(450,648)">
+    <rect x="-44" y="-44" width="88" height="88" rx="13" fill="url(#gem2)" stroke="#3a1d6e" stroke-width="3"/>
+    <circle cx="0" cy="0" r="7" fill="#2a1a5e"/><circle cx="-21" cy="-21" r="7" fill="#2a1a5e"/><circle cx="21" cy="21" r="7" fill="#2a1a5e"/>
+  </g>
+  <g transform="translate(362,662) scale(.88)">
+    <polygon points="0,-56 54,38 -54,38" fill="url(#gem)" stroke="#1b2f6e" stroke-width="3"/>
+    <text x="0" y="26" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  </g>
+  <circle cx="215" cy="260" r="3" fill="#a9d8ff" opacity=".8"/><circle cx="700" cy="230" r="4" fill="#c9b6ff" opacity=".7"/><circle cx="690" cy="690" r="3" fill="#8fe3ff" opacity=".6"/>
+</svg>

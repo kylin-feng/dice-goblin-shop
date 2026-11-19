@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241c14"/><stop offset="1" stop-color="#141009"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4dd8d"/><stop offset=".5" stop-color="#c9a227"/><stop offset="1" stop-color="#8a6d12"/></linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2b98a"/><stop offset=".5" stop-color="#a97c42"/><stop offset="1" stop-color="#6f4d1f"/></linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a3524"/><stop offset="1" stop-color="#2b1e12"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".55"><stop offset="0" stop-color="#ffedb0" stop-opacity=".16"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#glow)"/>
+
+  <!-- octagon dice tray, perspective -->
+  <g transform="translate(450,505)">
+    <path d="M-330,-58 L-141,-213 L141,-213 L330,-58 L330,58 L141,213 L-141,213 L-330,58 Z" fill="url(#leather)" stroke="#6b5027" stroke-width="7"/>
+    <path d="M-330,-58 L-141,-213 L141,-213 L330,-58 L330,58 L141,213 L-141,213 L-330,58 Z" fill="none" stroke="#c9a227" stroke-width="3" stroke-dasharray="12 9" opacity=".7"/>
+    <path d="M-300,-47 L-128,-192 L128,-192 L300,-47 L300,47 L128,192 L-128,192 L-300,47 Z" fill="#221710"/>
+    <ellipse cx="0" cy="8" rx="290" ry="182" fill="#1a1109"/>
+  </g>
+
+  <!-- d20 center -->
+  <g transform="translate(450,470) scale(1.5)">
+    <polygon points="0,-72 63,-34 63,34 0,72 -63,34 -63,-34" fill="url(#gold)" stroke="#6b5010" stroke-width="3"/>
+    <polygon points="0,-38 34,-18 34,22 0,42 -34,22 -34,-18" fill="#8a6d12" stroke="#f4dd8d" stroke-width="2"/>
+    <text x="0" y="9" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#ffe" text-anchor="middle">20</text>
+    <path d="M0,-72 L0,-38 M63,-34 L34,-18 M63,34 L34,22 M0,72 L0,42 M-63,34 L-34,22 M-63,-34 L-34,-18" stroke="#6b5010" stroke-width="2.5" fill="none"/>
+  </g>
+  <!-- d12 -->
+  <g transform="translate(300,555) scale(.92)">
+    <polygon points="0,-64 61,-20 38,52 -38,52 -61,-20" fill="url(#bronze)" stroke="#5a3d16" stroke-width="3"/>
+    <polygon points="0,-30 29,-10 18,25 -18,25 -29,-10" fill="#7c571f" stroke="#e2b98a" stroke-width="2"/>
+    <text x="0" y="8" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#ffe" text-anchor="middle">12</text>
+  </g>
+  <!-- d10 -->
+  <g transform="translate(585,340) scale(.9)">
+    <polygon points="0,-62 38,10 0,62 -38,10" fill="url(#gold)" stroke="#6b5010" stroke-width="3"/>
+    <polygon points="0,-26 16,8 0,28 -16,8" fill="#8a6d12" stroke="#f4dd8d" stroke-width="2"/>
+    <text x="0" y="4" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#ffe" text-anchor="middle">10</text>
+  </g>
+  <!-- d% -->
+  <g transform="translate(585,455) scale(.9)">
+    <polygon points="0,-62 38,10 0,62 -38,10" fill="url(#bronze)" stroke="#5a3d16" stroke-width="3"/>
+    <polygon points="0,-26 16,8 0,28 -16,8" fill="#7c571f" stroke="#e2b98a" stroke-width="2"/>
+    <text x="0" y="6" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#ffe" text-anchor="middle">%</text>
+  </g>
+  <!-- d8 -->
+  <g transform="translate(315,355) scale(.88)">
+    <polygon points="0,-58 40,0 0,58 -40,0" fill="url(#gold)" stroke="#6b5010" stroke-width="3"/>
+    <line x1="0" y1="-58" x2="0" y2="58" stroke="#6b5010" stroke-width="2.5"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#6b5010" stroke-width="2.5"/>
+    <text x="0" y="-6" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#ffe" text-anchor="middle">8</text>
+  </g>
+  <!-- d6 -->
+  <g transform="translate(450,640)">
+    <rect x="-46" y="-46" width="92" height="92" rx="14" fill="url(#bronze)" stroke="#5a3d16" stroke-width="3"/>
+    <circle cx="0" cy="0" r="7" fill="#3a2608"/><circle cx="-22" cy="-22" r="7" fill="#3a2608"/><circle cx="22" cy="22" r="7" fill="#3a2608"/>
+  </g>
+  <!-- d4 -->
+  <g transform="translate(365,660) scale(.9)">
+    <polygon points="0,-56 54,38 -54,38" fill="url(#gold)" stroke="#6b5010" stroke-width="3"/>
+    <text x="0" y="26" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="#ffe" text-anchor="middle">4</text>
+  </g>
+  <!-- velvet pouch -->
+  <g transform="translate(672,585)">
+    <path d="M-62,10 Q-70,120 -34,148 L34,148 Q70,120 62,10 Q0,-38 -62,10 Z" fill="#1d3a2c" stroke="#0e2318" stroke-width="4"/>
+    <path d="M-62,10 Q0,-22 62,10" fill="none" stroke="#c9a227" stroke-width="5"/>
+    <circle cx="-30" cy="16" r="6" fill="#c9a227"/><circle cx="30" cy="16" r="6" fill="#c9a227"/>
+    <text x="0" y="98" font-family="Georgia,serif" font-size="24" fill="#ead9a0" text-anchor="middle" letter-spacing="2">DG</text>
+  </g>
+  <!-- sparks -->
+  <circle cx="210" cy="240" r="3" fill="#f4dd8d" opacity=".8"/><circle cx="705" cy="215" r="4" fill="#f4dd8d" opacity=".7"/><circle cx="160" cy="700" r="3" fill="#e2b98a" opacity=".6"/>
+</svg>

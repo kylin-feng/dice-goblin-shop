@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#221a12"/><stop offset="1" stop-color="#120d08"/></linearGradient>
+    <linearGradient id="lf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#553d29"/><stop offset="1" stop-color="#332414"/></linearGradient>
+    <radialGradient id="glow3" cx=".5" cy=".45" r=".55"><stop offset="0" stop-color="#ffe9b0" stop-opacity=".12"/><stop offset="1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg3)"/>
+  <rect width="900" height="900" fill="url(#glow3)"/>
+  <!-- octagon tray top view -->
+  <g transform="translate(450,450)">
+    <polygon points="0,-360 250,-250 360,0 250,250 0,360 -250,250 -360,0 -250,-250" fill="url(#lf)" stroke="#141312" stroke-width="26" stroke-linejoin="round"/>
+    <polygon points="0,-360 250,-250 360,0 250,250 0,360 -250,250 -360,0 -250,-250" fill="none" stroke="#c9a227" stroke-width="4" stroke-dasharray="16 10" opacity=".65"/>
+    <polygon points="0,-300 208,-146 300,0 208,146 0,300 -208,146 -300,0 -208,-146" fill="#2a1c10"/>
+    <polygon points="0,-300 208,-146 300,0 208,146 0,300 -208,146 -300,0 -208,-146" fill="none" stroke="#6b5027" stroke-width="3"/>
+    <!-- corner fold rivets -->
+    <circle cx="0" cy="-360" r="13" fill="#c9a227"/><circle cx="360" cy="0" r="13" fill="#c9a227"/><circle cx="0" cy="360" r="13" fill="#c9a227"/><circle cx="-360" cy="0" r="13" fill="#c9a227"/>
+    <circle cx="250" cy="-250" r="13" fill="#8a6d12"/><circle cx="250" cy="250" r="13" fill="#8a6d12"/><circle cx="-250" cy="250" r="13" fill="#8a6d12"/><circle cx="-250" cy="-250" r="13" fill="#8a6d12"/>
+    <!-- two dice resting in tray -->
+    <g transform="translate(-90,40) rotate(-12) scale(.8)">
+      <polygon points="0,-72 63,-34 63,34 0,72 -63,34 -63,-34" fill="#c9a227" stroke="#6b5010" stroke-width="4"/>
+      <polygon points="0,-38 34,-18 34,22 0,42 -34,22 -34,-18" fill="#8a6d12" stroke="#f4dd8d" stroke-width="2"/>
+      <text x="0" y="9" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#fff" text-anchor="middle">20</text>
+    </g>
+    <g transform="translate(120,-60) rotate(10)">
+      <rect x="-40" y="-40" width="80" height="80" rx="12" fill="#e2b98a" stroke="#6f4d1f" stroke-width="4"/>
+      <circle cx="0" cy="0" r="6" fill="#5a3d16"/><circle cx="-19" cy="-19" r="6" fill="#5a3d16"/><circle cx="19" cy="19" r="6" fill="#5a3d16"/>
+    </g>
+    <text x="0" y="-322" font-family="Georgia,serif" font-size="30" fill="#ead9a0" text-anchor="middle" letter-spacing="4">DICE GOBLIN</text>
+  </g>
+</svg>
